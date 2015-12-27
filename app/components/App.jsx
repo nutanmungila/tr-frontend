@@ -1,4 +1,6 @@
 import React from 'react';
+import Dropdown from './Dropdown.jsx';
+
 
 require('./App.css');
 
@@ -9,7 +11,10 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <h1>Hello World</h1>
+      <div id="main-page">
+      <Dropdown />
+
+      </div>
     );
   }
 }
